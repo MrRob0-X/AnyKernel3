@@ -25,7 +25,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 } # end attributes
 
 # boot shell variables
-block=/dev/block/bootdevice/by-name/BOOT;
+block=/dev/block/platform/13540000.dwmmc0/by-name/BOOT;
 is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
